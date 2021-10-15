@@ -22,7 +22,3 @@ if(is_numeric($input) && (int)$input >= 0)
 {
 	echo "Wrong age";
 }
-
-
-
-
