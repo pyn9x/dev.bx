@@ -81,6 +81,7 @@
 	background: rgba(255, 255, 255, 0.05);
 }
 
+<<<<<<< HEAD
 .movie-list--item-overlay {
 	display: flex;
 	align-items: center;
@@ -123,6 +124,8 @@
 
 }
 
+=======
+>>>>>>> 1b095ec (выполнил дз по верстке homework-4)
 .header-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -197,7 +200,10 @@
 
 .movie-list--item {
 	display: block;
+<<<<<<< HEAD
 	position: relative;
+=======
+>>>>>>> 1b095ec (выполнил дз по верстке homework-4)
 	margin-top: 20px;
 	width: 370px;
 	height: 700px;
