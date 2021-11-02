@@ -81,6 +81,48 @@
 	background: rgba(255, 255, 255, 0.05);
 }
 
+.movie-list--item-overlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 9;
+
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.movie-list--item:hover .movie-list--item-overlay {
+	opacity: 1;
+}
+
+.movie-list--item-more {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 220px;
+	height: 56px;
+	background: #4EE7B0;
+	border-radius: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.movie-list--item-more {
+	display: inline-flex;
+
+}
+
 .header-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -155,6 +197,7 @@
 
 .movie-list--item {
 	display: block;
+	position: relative;
 	margin-top: 20px;
 	width: 370px;
 	height: 700px;
